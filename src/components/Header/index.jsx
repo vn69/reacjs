@@ -8,16 +8,16 @@ export default function Header() {
         <div className="row justify-content-between align-items-center header-wrap">
           <div className="col-auto">
             <div >
-              <Link className="header__logo" to="/">My-App</Link>
+              <Link className="header__logo" to="/reactjs">My-App</Link>
             </div>
           </div>
           <div className="col-auto">
              <ul>
                <li>
-                 <Link className="header__link" to="/todo">Todo</Link>
+                 <Link className="header__link" to="/reactjs/todo">Todo</Link>
                </li>
                <li>
-                 <Link className="header__link" to="/tiktoktoe">TikTokToe</Link>
+                 <Link className="header__link" to="/reactjs/tiktoktoe">TikTokToe</Link>
                </li>
              </ul>
           </div>

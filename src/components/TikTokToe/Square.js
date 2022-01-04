@@ -9,13 +9,6 @@ function Square({ squareItem, isX, onClick, isWin }) {
   const isOcheck = squareItem === "o";
   const isCheck = squareItem;
 
-  useEffect(() => {
-    // effect;
-    const test = 1;
-    return () => {
-      // cleanup;
-    };
-  }, [isWin]);
   console.log("square re-render");
   return (
     <div

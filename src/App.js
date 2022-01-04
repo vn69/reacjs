@@ -15,9 +15,9 @@ function App() {
       <div>
         <Header></Header>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/todo" element={<Todo />} />
-          <Route path="/tiktoktoe" element={<TikTokToe />} />
+          <Route path="/reactjs" element={<Home />} />
+          <Route path="/reactjs/todo" element={<Todo />} />
+          <Route path="/reactjs/tiktoktoe" element={<TikTokToe />} />
           {/* <Route path="/news" element={<News />} /> */}
         </Routes>
       </div>
