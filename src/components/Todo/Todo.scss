@@ -1,0 +1,18 @@
+.todo-list {
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    .form-label {
+      flex-grow: 1;
+    }
+  }
+  .ml-10 {
+    margin-left: 10px;
+  }
+  .ml-20 {
+    margin-left: 20px;
+  }
+  .mt-10 {
+    margin-top: 10px;
+  }
+}

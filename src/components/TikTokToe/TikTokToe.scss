@@ -1,0 +1,53 @@
+.tiktoktoe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 306px;
+  }
+  .board.board-win {
+    pointer-events: none;
+    opacity: 0.7;
+  }
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 1px;
+  }
+  .player {
+    margin-top: 20px;
+  }
+  .hover-x::after {
+    content: "X";
+  }
+  .hover-o::after {
+    content: "O";
+  }
+  .hover::after {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    line-height: 100px;
+    color: #777;
+  }
+
+  .active {
+    cursor: not-allowed;
+  }
+  .active::after {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    line-height: 100px;
+  }
+  .active-x::after {
+    content: "X";
+  }
+  .active-o::after {
+    content: "O";
+  }
+}
